@@ -1,0 +1,237 @@
+body{
+    background: #202124;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    overflow: hidden;
+}
+div{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
+    left: -8px;
+}
+.navbartext{
+    display: flex;
+    color: white;
+    cursor: pointer;
+    flex-direction: row;
+    margin-top: 4px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    justify-content: flex-end;
+    font-size: 13px;
+}
+.avatar{
+    border-radius: 50px;
+    margin-top: -20%; 
+    position: inherit;
+    height: 32px;
+    width: 32px;
+    margin-top: 4px;
+    padding: 2px;
+}
+.avatar:hover{
+    background-color: #5f6368;
+    border: 4px;
+}
+.navbartext:hover{
+    text-decoration:underline;
+}
+.logocss{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 210px;
+
+}
+.google-main{
+    display: flex;
+    z-index: 3;
+    height: 46px;
+    background: #202124;
+    border: 1px solid #5c5f68;
+    box-shadow: none;
+    border-radius: 24px;
+    max-width: 582px;
+    margin-top: 26px;
+    margin-left: calc(50% - 292px);
+}
+.google-main:hover{
+    cursor: pointer;
+    background-color: #2f3033;
+    border: #2f3033;
+    -webkit-box-shadow: 0px 5px 8px 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 8px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 8px 5px rgba(0, 0, 0, 0.2);
+}
+.tochki{
+    width: 24px;
+    padding-left: 17px;
+    padding-right: 18px;
+    margin-top: 4px;
+}
+.tochki:hover{
+    background-color: #5f6368;
+    border-radius: 50%;
+    border-width: 5px;
+}
+input{
+    margin-right: 10px;
+    all:unset;
+    color: white;
+    flex: 100%;
+    padding-left: 13px;
+    width: 380px;
+}
+button{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 29px;
+    margin-left: 14px;
+    margin-right: -0.1%;
+    
+    
+}
+button:hover{
+    border-color: #5f6368;
+}
+.buttons{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: -8px;
+}
+.loopa{
+    height: 20px;
+    width: 20px;
+    padding-left: 14px;
+    padding-top: 13px;
+    display: flex;
+    align-items: center;
+}
+.keyboard{
+    height: 11px;
+    margin-top: 12px;
+    padding: 5px;
+    margin-left: 32px
+}
+.microfone{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    padding: 10px;
+    margin-left: 4px;
+}
+.cam{
+    height: 25px;
+    width: 22px;
+    vertical-align: middle;
+    margin-top: 10px;
+    padding-left: 6px;
+}
+footer{
+    width: 100%;
+    background: #171717;
+    position: absolute;
+    bottom: 0;
+    color: #999da2;
+    left: 0;
+    height: 95px;
+}
+.bottom{
+    justify-content: space-evenly;
+}
+.somethingleaf{
+    order: 1;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    left: 3px;
+    top: -1px;
+}
+.leaf{
+    height: 14px;
+    margin-right: 6px;
+}
+.russia{
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+.somethingleaf:hover{
+    text-decoration: underline;
+}
+.google-inf{
+    display: flex;
+    height: 47px;
+    margin-top: 16px;
+}
+.g1{
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 0;
+    gap: 2px;
+    font-size: 14px;
+    position: relative;
+    left: 15px;
+    top: -1px;
+}
+.g2{
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 2;
+    margin-right: -1px;
+    margin-top: -1px;
+    gap: 2px;
+}
+.g1:hover{
+    cursor: pointer;
+}
+.g2:hover{
+    cursor: pointer;
+}
+.google-inf div{
+    padding: 0px 18px 0px 10px;
+    
+}
+.c1:hover{
+    text-decoration: underline;
+}
+.c2:hover{
+    text-decoration: underline;
+}
+.c3:hover{
+    text-decoration: underline;
+}
+.c4:hover{
+    text-decoration: underline;
+}
+.c5:hover{
+    text-decoration: underline;
+}
+.c6:hover{
+    text-decoration: underline;
+}
+.c7:hover{
+    text-decoration: underline;
+}
